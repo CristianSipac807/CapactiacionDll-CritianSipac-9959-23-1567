@@ -38,6 +38,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CapaModelo_MVC1\bin\Debug\CapaModelo_MVC1.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Comboi">
+      <HintPath>..\..\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Vista_Comboi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />

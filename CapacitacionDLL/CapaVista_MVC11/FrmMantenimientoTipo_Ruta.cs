@@ -20,6 +20,7 @@ namespace CapaVista_MVC11
         {
             InitializeComponent();
             PnlDatos.Enabled = false;
+            CargarDatos();
         }
 
         private void FrmTipoRuta_Load(object sender, EventArgs e)
@@ -117,6 +118,12 @@ namespace CapaVista_MVC11
                 TxtNombreTipo_Ruta.Text = DgvListaTipo_Ruta.CurrentRow.Cells[1].Value.ToString();
                 TxtDescripcionTipo_Ruta.Text = DgvListaTipo_Ruta.CurrentRow.Cells[2].Value.ToString();
             }
+        }
+
+        void CargarDatos()
+        {
+            comboI1.llenarCombo("tbl_id_tipo_ruta", "id_tipo_ruta", "nombre_tipo_ruta");
+
         }
     }
 }

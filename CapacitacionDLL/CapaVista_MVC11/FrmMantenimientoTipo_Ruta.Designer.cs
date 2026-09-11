@@ -30,12 +30,14 @@
         {
             this.DgvListaTipo_Ruta = new System.Windows.Forms.DataGridView();
             this.PnlDatos = new System.Windows.Forms.Panel();
-            this.TxtNombreTipo_Ruta = new System.Windows.Forms.TextBox();
-            this.TxtDescripcionTipo_Ruta = new System.Windows.Forms.TextBox();
-            this.BtnGuardar = new System.Windows.Forms.Button();
-            this.BtnModificar = new System.Windows.Forms.Button();
             this.BtnEliminar = new System.Windows.Forms.Button();
+            this.BtnModificar = new System.Windows.Forms.Button();
+            this.BtnGuardar = new System.Windows.Forms.Button();
+            this.TxtDescripcionTipo_Ruta = new System.Windows.Forms.TextBox();
+            this.TxtNombreTipo_Ruta = new System.Windows.Forms.TextBox();
             this.BtnHabilitar = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboI1 = new Capa_Vista_Comboi.ComboI();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListaTipo_Ruta)).BeginInit();
             this.PnlDatos.SuspendLayout();
             this.SuspendLayout();
@@ -64,29 +66,15 @@
             this.PnlDatos.Size = new System.Drawing.Size(242, 255);
             this.PnlDatos.TabIndex = 1;
             // 
-            // TxtNombreTipo_Ruta
+            // BtnEliminar
             // 
-            this.TxtNombreTipo_Ruta.Location = new System.Drawing.Point(25, 26);
-            this.TxtNombreTipo_Ruta.Name = "TxtNombreTipo_Ruta";
-            this.TxtNombreTipo_Ruta.Size = new System.Drawing.Size(194, 22);
-            this.TxtNombreTipo_Ruta.TabIndex = 0;
-            // 
-            // TxtDescripcionTipo_Ruta
-            // 
-            this.TxtDescripcionTipo_Ruta.Location = new System.Drawing.Point(25, 87);
-            this.TxtDescripcionTipo_Ruta.Name = "TxtDescripcionTipo_Ruta";
-            this.TxtDescripcionTipo_Ruta.Size = new System.Drawing.Size(194, 22);
-            this.TxtDescripcionTipo_Ruta.TabIndex = 1;
-            // 
-            // BtnGuardar
-            // 
-            this.BtnGuardar.Location = new System.Drawing.Point(53, 128);
-            this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(138, 23);
-            this.BtnGuardar.TabIndex = 2;
-            this.BtnGuardar.Text = "Agregar";
-            this.BtnGuardar.UseVisualStyleBackColor = true;
-            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
+            this.BtnEliminar.Location = new System.Drawing.Point(53, 207);
+            this.BtnEliminar.Name = "BtnEliminar";
+            this.BtnEliminar.Size = new System.Drawing.Size(138, 23);
+            this.BtnEliminar.TabIndex = 4;
+            this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.UseVisualStyleBackColor = true;
+            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // BtnModificar
             // 
@@ -98,15 +86,29 @@
             this.BtnModificar.UseVisualStyleBackColor = true;
             this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
-            // BtnEliminar
+            // BtnGuardar
             // 
-            this.BtnEliminar.Location = new System.Drawing.Point(53, 207);
-            this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(138, 23);
-            this.BtnEliminar.TabIndex = 4;
-            this.BtnEliminar.Text = "Eliminar";
-            this.BtnEliminar.UseVisualStyleBackColor = true;
-            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
+            this.BtnGuardar.Location = new System.Drawing.Point(53, 128);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(138, 23);
+            this.BtnGuardar.TabIndex = 2;
+            this.BtnGuardar.Text = "Agregar";
+            this.BtnGuardar.UseVisualStyleBackColor = true;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
+            // 
+            // TxtDescripcionTipo_Ruta
+            // 
+            this.TxtDescripcionTipo_Ruta.Location = new System.Drawing.Point(25, 87);
+            this.TxtDescripcionTipo_Ruta.Name = "TxtDescripcionTipo_Ruta";
+            this.TxtDescripcionTipo_Ruta.Size = new System.Drawing.Size(194, 22);
+            this.TxtDescripcionTipo_Ruta.TabIndex = 1;
+            // 
+            // TxtNombreTipo_Ruta
+            // 
+            this.TxtNombreTipo_Ruta.Location = new System.Drawing.Point(25, 26);
+            this.TxtNombreTipo_Ruta.Name = "TxtNombreTipo_Ruta";
+            this.TxtNombreTipo_Ruta.Size = new System.Drawing.Size(194, 22);
+            this.TxtNombreTipo_Ruta.TabIndex = 0;
             // 
             // BtnHabilitar
             // 
@@ -118,11 +120,28 @@
             this.BtnHabilitar.UseVisualStyleBackColor = true;
             this.BtnHabilitar.Click += new System.EventHandler(this.BtnHabilitar_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(66, 50);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(448, 24);
+            this.comboBox1.TabIndex = 3;
+            // 
+            // comboI1
+            // 
+            this.comboI1.Location = new System.Drawing.Point(68, 80);
+            this.comboI1.Name = "comboI1";
+            this.comboI1.Size = new System.Drawing.Size(448, 24);
+            this.comboI1.TabIndex = 4;
+            // 
             // FrmMantenimientoTipo_Ruta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 535);
+            this.Controls.Add(this.comboI1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.BtnHabilitar);
             this.Controls.Add(this.PnlDatos);
             this.Controls.Add(this.DgvListaTipo_Ruta);
@@ -145,5 +164,7 @@
         private System.Windows.Forms.Button BtnModificar;
         private System.Windows.Forms.Button BtnGuardar;
         private System.Windows.Forms.Button BtnHabilitar;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private Capa_Vista_Comboi.ComboI comboI1;
     }
 }

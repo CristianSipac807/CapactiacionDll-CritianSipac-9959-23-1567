@@ -1,0 +1,13 @@
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Vista_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Vista_Comboi.pdb
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vista_Comboi.csproj.AssemblyReference.cache
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vista_Comboi.csproj.CoreCompileInputs.cache
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vista_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vista_Comboi.pdb
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Controlado_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Controlado_Comboi.pdb
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vis.6A0DE6CF.Up2Date
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vista_Comboi.ComboI.resources
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\obj\Debug\Capa_Vista_Comboi.csproj.GenerateResource.cache
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Modelo_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Vista_Comboi\bin\Debug\Capa_Modelo_Comboi.pdb

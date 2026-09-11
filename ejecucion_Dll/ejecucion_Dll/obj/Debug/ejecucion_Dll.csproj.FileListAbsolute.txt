@@ -15,3 +15,9 @@ C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-15
 C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\obj\Debug\ejecucion_Dll.exe
 C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\obj\Debug\ejecucion_Dll.pdb
 C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\obj\Debug\ejecucion_Dll.exe.config
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\bin\Debug\Capa_Vista_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\bin\Debug\Capa_Controlado_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\bin\Debug\Capa_Modelo_Comboi.dll
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\bin\Debug\Capa_Vista_Comboi.pdb
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\bin\Debug\Capa_Controlado_Comboi.pdb
+C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ejecucion_Dll\ejecucion_Dll\bin\Debug\Capa_Modelo_Comboi.pdb
