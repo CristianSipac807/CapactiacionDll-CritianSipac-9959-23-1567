@@ -20,7 +20,7 @@ namespace CapaModelo_MVC1.Repositorio
         public RepositorioTipoRuta()
         {
             selectAll = "SELECT * FROM tipo_ruta";
-            Insert = "INSERT INTO tipo_ruta VALUES (?, ?, ?)";
+            Insert = "INSERT INTO tipo_ruta (nombre_tipo_ruta, descripcion_tipo_ruta) VALUES (?, ?)";
             Update = "UPDATE tipo_ruta SET nombre_tipo_ruta=?, descripcion_tipo_ruta=? WHERE id_tipo_ruta=?";
             Delete = "DELETE FROM tipo_ruta WHERE id_tipo_ruta=?";
         }

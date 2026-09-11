@@ -25,13 +25,13 @@ namespace CapaControlador_MVC1.Modelos_de_controladores
         public int IdTipoRuta { get => _idTipoRuta; set => _idTipoRuta = value; }
 
         [Required(ErrorMessage = "El campo Nombre de Tipo de Ruta es requerido")]
-        [RegularExpression("^[a-zA-Zá-ú]+$", ErrorMessage = "El campo Nombre debe ser solo letras")]
-        [StringLength(maximumLength: 100, MinimumLength = 10, ErrorMessage = "El campo Nombre debe tener entre 10 y 100 caracteres")]
+        [RegularExpression("^[a-zA-Zá-ú\\s]+$", ErrorMessage = "El campo Nombre debe ser solo letras")]
+        [StringLength(maximumLength: 100, MinimumLength = 3, ErrorMessage = "El campo Nombre debe tener entre 10 y 100 caracteres")]
         public string NombreTipoRuta { get => _nombreTipoRuta; set => _nombreTipoRuta = value; }
 
-        [Required(ErrorMessage = "El campo Descripción de Tipo de Ruta es requerido")]
-        [RegularExpression("^[a-zA-Zá-ú]+$", ErrorMessage = "El campo Descripción debe ser solo letras")]
-        [StringLength(maximumLength: 100, MinimumLength = 10, ErrorMessage = "El campo Descripción debe tener entre 10 y 100 caracteres")]
+        [Required(ErrorMessage = "El campo Descripción de Rol es requerido")]
+        [RegularExpression("^[a-zA-Zá-ú\\s]+$", ErrorMessage = "El campo Descripción debe ser solo letras")]
+        [StringLength(maximumLength: 100, MinimumLength = 3, ErrorMessage = "El campo Descripción debe tener entre 10 y 100 caracteres")]
         public string DescripcionTipoRuta { get => _descripcionTipoRuta; set => _descripcionTipoRuta = value; }
 
         public ModeloTipo_Ruta()
