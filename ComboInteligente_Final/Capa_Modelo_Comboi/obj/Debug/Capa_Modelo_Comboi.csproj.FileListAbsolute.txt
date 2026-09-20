@@ -1,6 +1,0 @@
-C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Modelo_Comboi\bin\Debug\Capa_Modelo_Comboi.dll
-C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Modelo_Comboi\bin\Debug\Capa_Modelo_Comboi.pdb
-C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Modelo_Comboi\obj\Debug\Capa_Modelo_Comboi.csproj.AssemblyReference.cache
-C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Modelo_Comboi\obj\Debug\Capa_Modelo_Comboi.csproj.CoreCompileInputs.cache
-C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Modelo_Comboi\obj\Debug\Capa_Modelo_Comboi.dll
-C:\Users\cdavi\Desktop\Nueva carpeta DLL\CapactiacionDll-CritianSipac-9959-23-1567\ComboInteligente_Final\Capa_Modelo_Comboi\obj\Debug\Capa_Modelo_Comboi.pdb
