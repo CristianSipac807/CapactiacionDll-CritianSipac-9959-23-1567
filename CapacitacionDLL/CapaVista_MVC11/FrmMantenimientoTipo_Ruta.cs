@@ -1,5 +1,6 @@
 ﻿using CapaControlador_MVC1.Modelos_de_controladores;
 using CapaControlador_MVC1.Objetos_de_valor.EstadoEntidad;
+using CapaVista_MVC11.Reportes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -124,6 +125,12 @@ namespace CapaVista_MVC11
         {
             comboI1.llenarCombo("tbl_id_tipo_ruta", "id_tipo_ruta", "nombre_tipo_ruta");
 
+        }
+
+        private void BtnImprimir_Click(object sender, EventArgs e)
+        {
+            frmReporteTipo_Ruta reporte = new frmReporteTipo_Ruta();
+            reporte.Show();
         }
     }
 }

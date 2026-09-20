@@ -38,6 +38,7 @@
             this.BtnHabilitar = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboI1 = new Capa_Vista_Comboi.ComboI();
+            this.BtnImprimir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListaTipo_Ruta)).BeginInit();
             this.PnlDatos.SuspendLayout();
             this.SuspendLayout();
@@ -135,11 +136,22 @@
             this.comboI1.Size = new System.Drawing.Size(448, 24);
             this.comboI1.TabIndex = 4;
             // 
+            // BtnImprimir
+            // 
+            this.BtnImprimir.Location = new System.Drawing.Point(219, 256);
+            this.BtnImprimir.Name = "BtnImprimir";
+            this.BtnImprimir.Size = new System.Drawing.Size(75, 23);
+            this.BtnImprimir.TabIndex = 5;
+            this.BtnImprimir.Text = "Imprimir";
+            this.BtnImprimir.UseVisualStyleBackColor = true;
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
+            // 
             // FrmMantenimientoTipo_Ruta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 535);
+            this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.comboI1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.BtnHabilitar);
@@ -166,5 +178,6 @@
         private System.Windows.Forms.Button BtnHabilitar;
         private System.Windows.Forms.ComboBox comboBox1;
         private Capa_Vista_Comboi.ComboI comboI1;
+        private System.Windows.Forms.Button BtnImprimir;
     }
 }
