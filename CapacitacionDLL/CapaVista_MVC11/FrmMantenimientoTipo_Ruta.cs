@@ -132,5 +132,10 @@ namespace CapaVista_MVC11
             frmReporteTipo_Ruta reporte = new frmReporteTipo_Ruta();
             reporte.Show();
         }
+
+        private void BtnAyudar_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "c:/AyudaRisko/CapaRisko.chm", "Empleados.html");
+        }
     }
 }

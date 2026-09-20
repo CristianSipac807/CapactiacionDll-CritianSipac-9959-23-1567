@@ -39,6 +39,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboI1 = new Capa_Vista_Comboi.ComboI();
             this.BtnImprimir = new System.Windows.Forms.Button();
+            this.BtnAyudar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListaTipo_Ruta)).BeginInit();
             this.PnlDatos.SuspendLayout();
             this.SuspendLayout();
@@ -146,11 +147,22 @@
             this.BtnImprimir.UseVisualStyleBackColor = true;
             this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
             // 
+            // BtnAyudar
+            // 
+            this.BtnAyudar.Location = new System.Drawing.Point(342, 256);
+            this.BtnAyudar.Name = "BtnAyudar";
+            this.BtnAyudar.Size = new System.Drawing.Size(98, 23);
+            this.BtnAyudar.TabIndex = 6;
+            this.BtnAyudar.Text = "Ayudas";
+            this.BtnAyudar.UseVisualStyleBackColor = true;
+            this.BtnAyudar.Click += new System.EventHandler(this.BtnAyudar_Click);
+            // 
             // FrmMantenimientoTipo_Ruta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 535);
+            this.Controls.Add(this.BtnAyudar);
             this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.comboI1);
             this.Controls.Add(this.comboBox1);
@@ -179,5 +191,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private Capa_Vista_Comboi.ComboI comboI1;
         private System.Windows.Forms.Button BtnImprimir;
+        private System.Windows.Forms.Button BtnAyudar;
     }
 }
